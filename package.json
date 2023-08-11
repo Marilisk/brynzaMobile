@@ -1,0 +1,30 @@
+{
+  "name": "brynzamobile",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "expo": "~49.0.6",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.3",
+    "react-native-svg": "13.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@tsconfig/react-native": "^3.0.2",
+    "@types/jest": "^29.5.3",
+    "@types/react": "^18.2.20",
+    "@types/react-native": "^0.72.2",
+    "@types/react-test-renderer": "^18.0.0",
+    "expo-cli": "^6.3.10",
+    "typescript": "^5.1.6"
+  },
+  "private": true
+}
